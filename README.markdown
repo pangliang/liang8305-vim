@@ -13,21 +13,21 @@ I use it to write:
 
 1. cd to home
 
-	cd ~
+		cd ~
 
 2. copy files:
 	
-	git clone https://github.com/liang8305/liang8305-vim.git
+		git clone https://github.com/liang8305/liang8305-vim.git
 
 3. run `update.sh` to all modules:
 	
-	cd liang8305-vim
-	./update.sh
+		cd liang8305-vim
+		./update.sh
 
 4. link `~/.vim` to `liang8305-vim`
 
-	ln -s liang8305-vim .vim
+		ln -s liang8305-vim .vim
 
 5. link `~/.vimrc` to `liang8305-vim/vimrc`
 
-	ln -s .vim/vimrc .vimrc
+		ln -s .vim/vimrc .vimrc
