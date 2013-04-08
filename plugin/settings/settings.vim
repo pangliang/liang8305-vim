@@ -4,8 +4,18 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 
-set mouse=a
+set nocompatible
+" 不兼容vi
+
+set mouse=n
 " 允许鼠标
+" n       Normal mode
+" v       Visual mode
+" i       Insert mode
+" c       Command-line mode
+" h       all previous modes when editing a help file
+" a       all previous modes
+" r       for |hit-enter| and |more-prompt| prompt
 
 set autoread
 " 当文件被外部修改时自动重新载入文件
@@ -21,12 +31,12 @@ autocmd InsertEnter * se cul
 set smartindent
 " 智能对齐
 
-"set autoindent
+set autoindent
 " 自动对齐
 
-set cin
+"set cin
 
-set confirm
+"set confirm
 " 在处理未保存或只读文件的时候，弹出确认
 
 set tabstop=4
@@ -42,14 +52,14 @@ set noexpandtab
 set number
 " 显示行号
 
-set history=50
+set history=500
 " 历史纪录数
 
 set hlsearch
 set incsearch
 " 搜索逐字符高亮
 
-set gdefault
+"set gdefault
 " 行内替换
 
 set encoding=utf-8
