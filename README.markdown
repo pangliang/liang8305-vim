@@ -11,11 +11,23 @@ I use it to write:
 
 #Installation
 
-	#download to where you want
+1. cd to home
+
+	cd ~
+
+2. copy files:
+	
 	git clone https://github.com/liang8305/liang8305-vim.git
 
-	#in your dir, run install shell
-	cd /你的目录/liang8305-vim
-	./install.sh
+3. run `update.sh` to all modules:
+	
+	cd liang8305-vim
+	./update.sh
 
+4. link `~/.vim` to `liang8305-vim`
 
+	ln -s liang8305-vim .vim
+
+5. link `~/.vimrc` to `liang8305-vim/vimrc`
+
+	ln -s .vim/vimrc .vimrc
