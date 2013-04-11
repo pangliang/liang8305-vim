@@ -7,7 +7,7 @@ autocmd WinLeave * setlocal nocursorline
 set nocompatible
 " 不兼容vi
 
-set mouse=n
+set mouse=a
 " 允许鼠标
 " n       Normal mode
 " v       Visual mode
@@ -49,7 +49,7 @@ set shiftwidth=4
 set noexpandtab
 " 不要用空格代替制表符
 
-set number
+"set number
 " 显示行号
 
 set history=500
