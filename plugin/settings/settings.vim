@@ -7,7 +7,7 @@ autocmd WinLeave * setlocal nocursorline
 set nocompatible
 " 不兼容vi
 
-set mouse=a
+set mouse=v
 " 允许鼠标
 " n       Normal mode
 " v       Visual mode
