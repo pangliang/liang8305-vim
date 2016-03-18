@@ -1,10 +1,32 @@
-"liang8305的个人vimrc配置
+"个人vimrc配置
 "
 "
 "pangliang
-"http://liang8305.github.com
 "418094911@qq.com
 "
-runtime bundle/vim-pathogen/autoload/pathogen.vim
 
-execute pathogen#infect()
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" custom plugins
+Plugin 'L9'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'rust-lang/rust.vim'
+Plugin 'The-NERD-tree'
+Plugin 'Shougo/neocomplete'
+Plugin 'Shougo/unite.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required

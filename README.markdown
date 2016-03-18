@@ -1,4 +1,4 @@
-liang8305-vim
+oh-my-vim
 ===============
 
 My personal VIM setting.  
@@ -17,17 +17,17 @@ I use it to write:
 
 2. copy files:
 	
-		git clone https://github.com/liang8305/liang8305-vim.git
+		git clone https://github.com/pangliang/oh-my-vim.git
 
 3. run `update.sh` to all modules:
 	
-		cd liang8305-vim
+		cd oh-my-vim
 		./update.sh
 
-4. link `~/.vim` to `liang8305-vim`
+4. link `~/.vim` to `oh-my-vim`
 
-		ln -s liang8305-vim .vim
+		ln -s oh-my-vim .vim
 
-5. link `~/.vimrc` to `liang8305-vim/vimrc`
+5. link `~/.vimrc` to `oh-my-vim/vimrc`
 
 		ln -s .vim/vimrc .vimrc

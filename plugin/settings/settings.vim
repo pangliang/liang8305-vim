@@ -7,7 +7,7 @@ autocmd WinLeave * setlocal nocursorline
 set nocompatible
 " 不兼容vi
 
-set mouse=v
+set mouse=n
 " 允许鼠标
 " n       Normal mode
 " v       Visual mode
@@ -49,7 +49,7 @@ set shiftwidth=4
 set noexpandtab
 " 不要用空格代替制表符
 
-"set number
+set number
 " 显示行号
 
 set history=500
@@ -76,7 +76,7 @@ set langmenu=zn_CN.UTF-8
 set helplang=cn
 " 语言设置
 
-set cmdheight=2
+set cmdheight=1
 " 命令行（在状态行）的高度，默认为1,这里是2
 
 set ruler
@@ -109,5 +109,5 @@ set linespace=2
 set whichwrap=b,s,<,>,[,]
 " 开启Normal或Visual模式下Backspace键，空格键，左方向键，右方向键，Insert或replace模式下左方向键，右方向键跳行的功能。
 
-filetype plugin indent on
+"filetype plugin indent on
 " 分为三部分命令：file on, file plugin on, file indent on.分别表示自动识别文件类型，用文件类型脚本，使用缩进定义文件。
