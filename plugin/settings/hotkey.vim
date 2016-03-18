@@ -1,8 +1,9 @@
 "此配置文件专门设置热键
 
-" ctags
-map <silent> <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <F2> :NERDTreeToggle<CR>
 
-map <F4> :TlistToggle<cr>
-map <F2> :NERDTreeToggle<cr>
+"文件快速跳转
+noremap <leader>g :Unite -start-insert file_rec<CR>
 
+"tab切换
+noremap <leader><Tab> :bn<CR>

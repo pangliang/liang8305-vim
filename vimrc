@@ -5,7 +5,7 @@
 "418094911@qq.com
 "
 
-
+let mapleader = ","
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -23,6 +23,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'rust-lang/rust.vim'
 Plugin 'The-NERD-tree'
+"Plugin 'bling/vim-bufferline'
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/unite.vim'
 Plugin 'racer-rust/vim-racer'
