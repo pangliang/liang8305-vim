@@ -19,13 +19,13 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " custom plugins
-Plugin 'L9'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'rust-lang/rust.vim'
 Plugin 'The-NERD-tree'
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/unite.vim'
+Plugin 'racer-rust/vim-racer'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
