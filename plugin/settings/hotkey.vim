@@ -1,4 +1,4 @@
-"此配置文件专门设置热键
+"配置文件专门设置热键
 
 map <F2> :NERDTreeToggle<CR>
 
@@ -7,3 +7,6 @@ noremap <leader>g :Unite -start-insert file_rec<CR>
 
 "tab切换
 noremap <leader><Tab> :bn<CR>
+
+"leader+s 保存
+map <leader>s :w<CR>

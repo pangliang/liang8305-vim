@@ -1,5 +1,5 @@
 let g:rustfmt_autosave = 1
 
-autocmd FileType rust noremap <C-f>	:RustFmt<CR>
-autocmd FileType rust noremap <C-r> :RustRun<CR>
+autocmd BufRead,BufNewFile Cargo.toml,Cargo.lock,*.rs noremap <leader>f	:RustFmt<CR>
+autocmd BufRead,BufNewFile Cargo.toml,Cargo.lock,*.rs noremap <leader>r :w<CR>:!clear;cargo run<CR>
 
