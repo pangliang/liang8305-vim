@@ -26,7 +26,9 @@ Plugin 'The-NERD-tree'
 "Plugin 'bling/vim-bufferline'
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/unite.vim'
+Plugin 'tpope/vim-surround'
 Plugin 'racer-rust/vim-racer'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
