@@ -21,12 +21,15 @@ Plugin 'VundleVim/Vundle.vim'
 " custom plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'rust-lang/rust.vim'
 Plugin 'The-NERD-tree'
 "Plugin 'bling/vim-bufferline'
 Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/unite.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs'
+
+" rust plugins
+Plugin 'rust-lang/rust.vim'
 Plugin 'racer-rust/vim-racer'
 
 
