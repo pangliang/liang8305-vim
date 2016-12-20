@@ -7,6 +7,8 @@ autocmd WinLeave * setlocal nocursorline
 set nocompatible
 " 不兼容vi
 
+set backspace=indent,eol,start
+
 set mouse=n
 " 允许鼠标
 " n       Normal mode
