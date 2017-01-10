@@ -9,7 +9,7 @@ set nocompatible
 
 set backspace=indent,eol,start
 
-set mouse=n
+set mouse=a
 " 允许鼠标
 " n       Normal mode
 " v       Visual mode

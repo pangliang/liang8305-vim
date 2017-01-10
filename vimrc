@@ -27,7 +27,7 @@ Plugin 'Shougo/neocomplete'
 Plugin 'Shougo/unite.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
-
+Plugin 'fatih/vim-go'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
