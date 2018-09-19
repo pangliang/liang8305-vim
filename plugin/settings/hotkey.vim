@@ -12,3 +12,6 @@ noremap <leader>zz :bdelete<CR>
 
 "leader+s 保存
 map <leader>s :w<CR>
+
+"leader+q 退出
+map <leader>q :q<CR>
