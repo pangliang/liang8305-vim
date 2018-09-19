@@ -1,5 +1,5 @@
 *.swp
 plugged
-vim-plug
-
+bundle/*
+!bundle/vim-plug/autoload
 

@@ -9,8 +9,8 @@ let mapleader = ","
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/vim-plug
-call plug#begin('~/.vim/plugged')
+set rtp+=~/.vim/bundle/vim-plug
+call plug#begin('~/.vim/bundle')
 
 " custom plugins
 Plug 'vim-airline/vim-airline'
