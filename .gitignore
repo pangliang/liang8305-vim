@@ -1,11 +1,5 @@
 *.swp
-bundle/.vundle
-.netrwhist
-bundle/The-NERD-tree/
-bundle/auto-pairs/
-bundle/neocomplete/
-bundle/unite.vim/
-bundle/vim-airline-themes/
-bundle/vim-airline/
-bundle/vim-go/
-bundle/vim-surround/
+plugged
+vim-plug
+
+

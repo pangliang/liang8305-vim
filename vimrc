@@ -6,28 +6,29 @@
 "
 
 let mapleader = ","
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype off
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+set rtp+=~/.vim/vim-plug
+call plug#begin('~/.vim/plugged')
 
 " custom plugins
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'The-NERD-tree'
-"Plugin 'bling/vim-bufferline'
-Plugin 'Shougo/neocomplete'
-Plugin 'Shougo/unite.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'fatih/vim-go'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+"Plug 'bling/vim-bufferline'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+Plug 'Shougo/unite.vim'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+"Plug 'fatih/vim-go'
+
+call plug#end()
+
+filetype plugin indent on
